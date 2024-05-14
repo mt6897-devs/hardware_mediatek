@@ -279,6 +279,14 @@
             <instance>internal/0</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.mediatek.hardware.camera.isphal</name>
+	<version>1</version>
+        <interface>
+            <name>IISPModule</name>
+            <instance>internal/1</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.camera.postproc</name>
         <transport>hwbinder</transport>
